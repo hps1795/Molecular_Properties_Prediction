@@ -118,6 +118,7 @@ Dataset for the project is over 100MB so it cannot be uploaded to the GitHub. Fo
 ## Repository Structure
 
 ```
+├── Data                                <- Empty Data Folder (Read Information section for the guide to download the dataset) 
 ├── Images                              <- Folder containing graphs and images from notebooks and presentation
 │   └── ...
 ├── .gitignore                          <- Data file was large and ignored
