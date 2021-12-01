@@ -97,7 +97,22 @@ Based on the results on the test set:
 ***
 
 ## Information
+Information of the modules used and their versions to recreate this project:
 
+- jupyter: 1.0.0
+- Python: version 3.8.5
+- numpy: 1.21.4
+- pandas: 1.1.3
+- seaborn: 0.11.0
+- matplotlib: 3.3.1
+- scikit-learn: 0.23.2 
+- xgboost: 1.2.1
+- lightgbm: 3.3.1
+- catboost: 1.0.3
+- tensorflow: 2.3.1
+- keras: 2.4.3
+
+***
 
 ## Repository Structure
 
