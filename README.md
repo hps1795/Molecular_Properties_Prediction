@@ -14,7 +14,7 @@ This notebook contains the steps of solving the molecular properties prediction 
 ## Business Problem
 Nuclear Magnetic Resonance (NMR) is a core technique used to understand the structure and interactions of the molecules and proteins. NMR is being utilized by the researchers in pharmaceutical and chemical field worldwide. The NMR performance is largely dependent on the accurate prediction on the variable, scalar coupling constant (SCC).
 
-SCC is the feature that provides information on the connectivity of chemical bonds which is used to explain the interaction between the molecules in NMR. However, the constraint in SCC calculation limits the application of this technique; the calculation length takes from days to even weeks for one molecule when the structural information of the molecule is an input and the cost of calculation is expensive.
+SCC is a magnetic interaction (also called 'coupling') between two atoms. It is the feature that provides information on the connectivity of chemical structure which is used to explain the interaction between the molecules in NMR. However, the constraint in SCC calculation limits the application of this technique; the calculation length takes from days to even weeks for one molecule when the structural information of the molecule is an input and the cost of calculation is expensive.
 
 Therefore, creating a model that can accurately predict the SCC will allow the NMR to be applicable for research in daily basis. The model will allow the phamceutical researchers to gain insight on how the molecular structure affects the properties and behavior faster and cheaper, and accelerate the innovation in inventing and designing new drugs.
 
