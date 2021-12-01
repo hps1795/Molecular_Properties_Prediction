@@ -112,6 +112,7 @@ Information of the modules used and their versions to recreate this project:
 - tensorflow: 2.3.1
 - keras: 2.4.3
 
+Dataset for the project is over 100MB so it cannot be uploaded to the GitHub. For the dataset, proceed to the following link: https://www.kaggle.com/c/champs-scalar-coupling/data. One who wants to download the dataset needs to sign up for the competition.
 ***
 
 ## Repository Structure
