@@ -20,7 +20,7 @@ Therefore, creating a model that can accurately predict the SCC will allow the N
 
 ***
 
-## Data Understanding
+## Data
 **Data sourced from Kaggle Competition: [Predicting Molecular Properties](https://www.kaggle.com/c/champs-scalar-coupling/data)**
 
 Two dataset we will be using are:
@@ -37,26 +37,6 @@ The distribution is right skewed, which means the target variable needs to be no
 
 After Cubic Rooted Transformation, the target variable is more normalized as shown below.
 <img src="Image/Normalized_Target_Distribution.png">
-
-***
-
-## Data Preparation 
-For data preparation, the following tasks were done:
-- Merge train_df and structures_df
-- Create new features, such as distance and angle of the bond
-- Normalize the target variable
-- Check the multicollinearity of each column
-- Split the dataset into train, test, and validation set
-- Perform preprocessing
-
-For Normalization, cubic root transformation was used. Logistic transformation and square root transformation are also good options in handling the skewed distribution. However, since the logarithm and the square root are only defined for positive numbers, you can't take the logarithm of negative values. This means logistic transformation cannot be applied to our target variable, which contains negative values.
-
-The rule of thumb for multicollinearity is that severe multicollinearity may be present if the correlation coefficient is higher than 0.8. None of the features had a coefficient higher than 0.8, and, therefore, it was concluded that the dataset does not have severe multicollinearity. Multicollinearity was found by using the heatmap shown below. 
-
-<img src="Image/Multicollinearity.png">
-
-
-For the preprocessing, the columns are divided into two different columns: numerical and categorical. Numerical columns are scaled with MinMaxScaler, while categorical columns are encoded using LabelEncoder.
 
 ***
 
