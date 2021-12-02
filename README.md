@@ -79,7 +79,7 @@ Our final model is a Keras Sequential Model. The report of the result on holdout
 Based on the results on the test set:
 
 - The R2 score on the test set is 0.946. This means the predicted target variable on the test set shows high positive correlation with the actual test target variable. Also, R2 score of 0.946 means approximately 94.6% of the observed variation can be explained by the final keras model.
-- RMSE of 0.460 and MAE of 0.262 are both low values. This means the final model can relatively predict the target variable accurately.
+- RMSE of 0.460 and MAE of 0.262 are both low values. This means the final model can predict the target variable accurately.
 - Metrics for the test set is very close those of the train and validation set. This means the final model is generalized and available to be applied to the real-world coupling constant prediction without biased.
 - When neccessary informations (features in train_df2) are provided, final model can give accurate prediction on the target variable in less than a second for each combination of the atom inside the molecule: It took about 90 seconds for more than 90k predictions on test set. This will significantly reduce the cost and time it takes for predicting the scalar coupling constant, which takes days to even weeks for one molecule when traditional calculation method is used. Therefore, I strongly recommend researchers to apply this model to their NMR research process to speed up their research process.
 
