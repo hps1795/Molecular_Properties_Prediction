@@ -123,9 +123,9 @@ The dataset for the project is over 100MB, so it cannot be uploaded to GitHub. F
 
 ```
 ├── Data                                <- Empty Data Folder (Read Information section for the guide to download the dataset) 
-├── Images                              <- Folder containing graphs and images from notebooks and presentation
-│   └── ...
 ├── Final_Model                         <- Folder containing the saved Final Model
+│   └── ...
+├── Images                              <- Folder containing graphs and images from notebooks and presentation
 │   └── ...
 ├── .gitignore                          <- Data file was large and ignored
 ├── Final Notebook.ipynb                <- Narrative documentation of project in Jupyter notebook
