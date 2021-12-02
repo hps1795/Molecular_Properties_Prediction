@@ -41,7 +41,7 @@ After Cubic Rooted Transformation, target variable is more normalized as shown b
 ***
 
 ## Data Preparation 
-For data preparation following tasks were done:
+For data preparation, following tasks were done:
 - Merge train_df and structures_df
 - Create new features, such as distance and angle of the bond
 - Normalize the target variable
