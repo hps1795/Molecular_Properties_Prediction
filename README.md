@@ -104,7 +104,7 @@ Based on the results on the test set:
 Information of the modules used and their versions to recreate this project:
 
 - jupyter: 1.0.0
-- Python: version 3.8.5
+- Python: 3.8.5
 - numpy: 1.21.4
 - pandas: 1.1.3
 - seaborn: 0.11.0
