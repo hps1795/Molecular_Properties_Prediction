@@ -7,7 +7,7 @@ Data sourced from Kaggle Competition: [Predicting Molecular Properties](https://
 <img src="Image/molecules.png" width="100%" height="100%">
 
 ## Overview
-This notebook contains the steps of solving the molecular properties prediction involving the molecular structural data. The project aims to create a model that can accurately predict the target variable, the scalar coupling constant. Since this is a prediction on the continuous quantity output, the problem is defined as the regression problem. Then, the metrics are set as R-squared score, root mean squared error, and mean absolute error to evaluate the regression model: goal is to enhance the R2 score while maintaining the low error values. After performing multiple modeling, the Kera Neural Network is selected as the best model. 
+This notebook contains the steps of solving the molecular properties prediction involving the molecular structural data. The project aims to create a model that can accurately predict the target variable, the scalar coupling constant. Since this is a prediction on the continuous quantity output, the problem is defined as the regression problem. Then, the metrics are set as R-squared score, root mean squared error, and mean absolute error to evaluate the regression model: goal is to enhance the R2 score while maintaining the low error values. After performing multiple modeling, the Keras Neural Network is selected as the best model. 
 
 ***
 
