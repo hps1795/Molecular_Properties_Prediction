@@ -86,7 +86,7 @@ Based on the results on the test set:
 - Metrics for the test set are very close to those of the train and validation set. This means the final model is generalized and available to apply to the real-world coupling constant prediction without bias.
 
 
-- When necessary pieces of information (features in train_df2) are provided, the final model can give an accurate prediction on the target variable in less than a second for each combination of the atom inside the molecule: It took about 90 seconds for more than 90k predictions on the test set. This will significantly reduce the cost and time it takes to predict the scalar coupling constant, which takes days to even weeks for one molecule when the traditional calculation method is used. Therefore, I strongly recommend researchers apply this model to their NMR research process to speed up their research process.
+When necessary pieces of information (features in train_df2) are provided, the final model can give an accurate prediction on the target variable in less than a second for each combination of the atom inside the molecule: It took about 90 seconds for more than 90k predictions on the test set. This will significantly reduce the cost and time it takes to predict the scalar coupling constant, which takes days to even weeks for one molecule when the traditional calculation method is used. Therefore, I strongly recommend researchers apply this model to their NMR research process to speed up their research process.
 
 
 ***
@@ -100,7 +100,9 @@ Based on the results on the test set:
 
 ***
 
-## Information
+## Setup Instructions
+
+#### Module versions
 Information of the modules used and their versions to recreate this project:
 
 - jupyter: 1.0.0
@@ -116,7 +118,9 @@ Information of the modules used and their versions to recreate this project:
 - tensorflow: 2.3.1
 - keras: 2.4.3
 
+#### Dataset Download
 The dataset for the project is over 100MB, so it cannot be uploaded to GitHub. For the dataset, proceed to the following link: https://www.kaggle.com/c/champs-scalar-coupling/data. One who wants to download the dataset needs to sign up for the competition. After agreeing on the acknowledgment, one will be able to download the dataset files. You can choose to download the files you desire to use only or simply just download them all. When you click to download all, you will be downloading the zip file, **champs-scalar-coupling.zip**. Unzip the files and move data into the Data/ directory of this repository.
+
 ***
 
 ## Repository Structure
