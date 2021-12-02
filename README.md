@@ -86,20 +86,7 @@ When necessary pieces of information (features in train_df2) are provided, the f
 ## Setup Instructions
 
 #### Module versions
-Information of the modules used and their versions to recreate this project:
-
-- jupyter: 1.0.0
-- Python: 3.8.5
-- numpy: 1.21.4
-- pandas: 1.1.3
-- seaborn: 0.11.0
-- matplotlib: 3.3.1
-- scikit-learn: 0.23.2 
-- xgboost: 1.2.1
-- lightgbm: 3.3.1
-- catboost: 1.0.3
-- tensorflow: 2.3.1
-- keras: 2.4.3
+Information of the modules used and their versions to recreate this project is listed in module_versions.yml
 
 #### Dataset Download
 The dataset for the project is over 100MB, so it cannot be uploaded to GitHub. For the dataset, proceed to the following link: https://www.kaggle.com/c/champs-scalar-coupling/data. One who wants to download the dataset needs to sign up for the competition. After agreeing on the acknowledgment, one will be able to download the dataset files. You can choose to download the files you desire to use only or simply just download them all. When you click to download all, you will be downloading the zip file, **champs-scalar-coupling.zip**. Unzip the files and move data into the Data/ directory of this repository.
@@ -110,12 +97,16 @@ The dataset for the project is over 100MB, so it cannot be uploaded to GitHub. F
 
 ```
 ├── Data                                <- Empty Data Folder (Read Information section for the guide to download the dataset) 
+│   └── ...
 ├── Final_Model                         <- Folder containing the saved Final Model
 │   └── ...
 ├── Images                              <- Folder containing graphs and images from notebooks and presentation
 │   └── ...
+├── Notebooks                            <- Folder containing notebook with previous working progess
+│   └── ...
 ├── .gitignore                          <- Data file was large and ignored
-├── Final Notebook.ipynb                <- Narrative documentation of project in Jupyter notebook
+├── Molecule_Predictions.ipynb                <- Narrative documentation of project in Jupyter notebook
 ├── README.md                           <- Abstract Summary of the Final Notebook 
+├── module_version.yml                  <- Lists of modules and their versions used for the project
 └── presentation.pdf                    <- PDF version of project presentation
 ``` 
