@@ -96,7 +96,7 @@ The dataset for the project is over 100MB, so it cannot be uploaded to GitHub. F
 ## Repository Structure
 
 ```
-├── Data                                <- Empty Data Folder (Read Information section for the guide to download the dataset) 
+├── Data                                <- Empty Data Folder (Instruction included) 
 │   └── ...
 ├── Final_Model                         <- Folder containing the saved Final Model
 │   └── ...
