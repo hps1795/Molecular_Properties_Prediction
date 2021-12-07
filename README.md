@@ -12,15 +12,27 @@ This notebook contains the steps of solving the molecular properties prediction 
 ***
 
 ## Business Problem
-- NMR Information: https://www.jeol.co.jp/en/products/nmr/basics.html
-- NMR and Scalar Coupling Constant Information: https://chem.libretexts.org/Courses/University_of_Illinois_Springfield/Introduction_to_Organic_Spectroscopy/5%3A_Proton_Nuclear_Magnetic_Resonance_Spectroscopy_(NMR)/5.03%3A_NMR_Spectroscopy
+**NMR Information:** 
 
-Nuclear Magnetic Resonance (NMR) is a core technique used to understand the structure and interactions of molecules and proteins. NMR is being utilized by researchers in the pharmaceutical and chemical fields worldwide. The NMR performance is largely dependent on the accurate prediction of the variable, scalar coupling constant (SCC). 
+https://www.jeol.co.jp/en/products/nmr/basics.html
 
-SCC is a magnetic interaction (also called 'coupling') between two atoms. It is the feature that provides information on the connectivity of chemical structure, which is used to explain the interaction between the molecules in NMR. However, the constraint in SCC calculation limits the application of this technique; the calculation length takes from days to even weeks for one molecule when the structural information of the molecule is an input, and the cost of calculation is expensive.
+**NMR and Scalar Coupling Constant Information:**
+
+https://chem.libretexts.org/Courses/University_of_Illinois_Springfield/Introduction_to_Organic_Spectroscopy/5%3A_Proton_Nuclear_Magnetic_Resonance_Spectroscopy_(NMR)/5.03%3A_NMR_Spectroscopy 
+
+https://www.chem.ucalgary.ca/courses/350/Carey5th/Ch13/ch13-nmr-5.html 
+
+https://studylib.net/doc/5623505/chapter-3--coupling-constants
+
+**NMR application:**
+
+https://pubmed.ncbi.nlm.nih.gov/20809894/
+
+Nuclear Magnetic Resonance (NMR) is a core technique used to understand the structure and interactions of molecules and proteins. NMR is being utilized by researchers in the pharmaceutical and chemical fields worldwide. Researchers can design a protein-targeted drugs using NMR by investigating the interaction between the drug molecules and the target proteins inside the cells, researchers can design a protein-targeted drugs. The NMR performance is largely dependent on the accurate prediction of the variable, scalar coupling constant (SCC).
+
+SCC is a measure of magnetic interaction (also called 'coupling') between pair of two atoms' protons. It is the feature that provides information on the connectivity of chemical structure, which is used to explain the interaction between the molecules in NMR. Coupling Constant is a crucial in interpreting the NMR by finding features in the molecules such as coupling partners, hydrogen bonds, and number of interveneing bonds. However, the constraint in SCC calculation limits the application of this technique; the calculation length takes from days to even weeks for one molecule when the structural information of the molecule is an input, and the cost of calculation is expensive.
 
 Therefore, creating a model that can accurately predict the SCC will allow the NMR to be applicable for research in a daily basis. The model will enable pharmaceutical researchers to gain insight on how the molecular structure affects the properties and behavior faster and cheaper and accelerate the innovation in inventing and designing new drugs.
-
 ***
 
 ## Data
@@ -69,7 +81,7 @@ Based on the results on the test set:
 - Metrics for the test set are very close to those of the train and validation set. This means the final model is generalized and available to apply to the real-world coupling constant prediction without bias.
 
 
-When necessary pieces of information (features in train_df2) are provided, the final model can give an accurate prediction on the target variable in less than a second for each combination of the atom inside the molecule: It took about 90 seconds for more than 90k predictions on the test set. This will significantly reduce the cost and time it takes to predict the scalar coupling constant, which takes days to even weeks for one molecule when the traditional calculation method is used. Therefore, I strongly recommend researchers apply this model to their NMR research process to speed up their research process.
+When necessary pieces of information (features in train_df2) are provided, the final model can give an accurate prediction on the target variable in less than a second for each combination of the atom inside the molecule: It took about 90 seconds for more than 90k predictions on the test set. This will significantly reduce the cost and time it takes to predict the scalar coupling constant, which takes days to even weeks for one molecule when the traditional calculation method is used. By reducing the coupling constant calculation time, researchers can obtain and interpret the NMR results faster, and speed up the protein-targeted drug design. Therefore, I strongly recommend researchers apply this model to their NMR research process to speed up their research process.
 
 
 ***
