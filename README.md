@@ -88,17 +88,17 @@ The dataset for the project is over 100MB, so it cannot be uploaded to GitHub. F
 ## Repository Structure
 
 ```
-├── Data                                <- Empty Data Folder (Instruction included) 
+├── Data                                   <- Empty Data Folder (Instruction included) 
 │   └── ...
-├── Final_Model                         <- Folder containing the saved Final Model
+├── Final_Model                            <- Folder containing the saved Final Model
 │   └── ...
-├── Images                              <- Folder containing graphs and images from notebooks and presentation
+├── Images                                 <- Folder containing graphs and images from notebooks and presentation
 │   └── ...
-├── Notebooks                            <- Folder containing notebook with previous working progess
+├── Notebooks                              <- Folder containing notebook with previous working progess
 │   └── ...
-├── .gitignore                          <- Data file was large and ignored
-├── Molecule_Predictions.ipynb                <- Narrative documentation of project in Jupyter notebook
-├── README.md                           <- Abstract Summary of the Final Notebook 
-├── module_version.yml                  <- Lists of modules and their versions used for the project
-└── presentation.pdf                    <- PDF version of project presentation
+├── .gitignore                             <- Data file was large and ignored
+├── Molecule_Predictions.ipynb             <- Narrative documentation of project in Jupyter notebook
+├── README.md                              <- Abstract Summary of the Final Notebook 
+├── module_version.yml                     <- Lists of modules and their versions used for the project
+└── molecule_prediction_presentation.pdf   <- PDF version of project presentation
 ``` 
